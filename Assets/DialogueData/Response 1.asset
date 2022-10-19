@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b2aa453baff47a48b3de314045e663b, type: 3}
+  m_Name: Response 1
+  m_EditorClassIdentifier: 
+  dialogue:
+  - Well, I guess there might be one way out. Don't laugh, but...
+  - I think the problem is with the door. If you manage to beat it in single combat,
+    you might be able to espace.
+  - No guarentees though. And don't you dare fight it while I'm around! I don't want
+    to die in the crossfire.
+  responses:
+  - responseText: I'll do it.
+    dialogueObject: {fileID: 11400000, guid: 6ef8ed1ca285fca4890e43ea56ef0ea8, type: 2}

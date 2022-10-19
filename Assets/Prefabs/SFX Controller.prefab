@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3632835059000553515
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3632835059000553559}
+  - component: {fileID: 3632835059000553558}
+  - component: {fileID: 3632835059000553557}
+  - component: {fileID: 3632835059000553556}
+  m_Layer: 0
+  m_Name: SFX Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3632835059000553559
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3632835059000553515}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3632835059000553558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3632835059000553515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da710e86f72d99c40941fc8c6ebbab3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3632835059000553557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3632835059000553515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ef37bff19efdaf4a9da0e573a9b5b64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneSongs: []
+--- !u!114 &3632835059000553556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3632835059000553515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ff6ccc97017fc14ca56dea17b0060b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundGroups:
+  - groupID: Enemy Death
+    group:
+    - {fileID: 8300000, guid: 2061ffa685de59143818d6c6313cb57a, type: 3}
+  - groupID: Player Death
+    group:
+    - {fileID: 8300000, guid: 8dcd8c629a81cf744bced133961f3a3a, type: 3}
+  - groupID: Player Hurt
+    group:
+    - {fileID: 8300000, guid: d37e332c4cc18f04b9664f3e2a7f42b5, type: 3}
+    - {fileID: 8300000, guid: 88a58babfc28c98418a2283b58b86b39, type: 3}
+  - groupID: Enemy Hurt
+    group:
+    - {fileID: 8300000, guid: 2485fbfef2b652f40bf56b2cc565986b, type: 3}
+    - {fileID: 8300000, guid: 893e2327e1fa24a45ab1a1d4c268858b, type: 3}
+    - {fileID: 8300000, guid: fb2cee46bc6085742852c801c7020e44, type: 3}
+  - groupID: Get Key
+    group:
+    - {fileID: 8300000, guid: e00d667e562d942459535716b5bed980, type: 3}
+  - groupID: Get Final Key
+    group:
+    - {fileID: 8300000, guid: 01c106488d8c1fb429b613e9f851733c, type: 3}
+  - groupID: Boss Death
+    group:
+    - {fileID: 8300000, guid: b69e1abf92140e54bb8d2b35347a6f87, type: 3}
